@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media.css">
 </head>
@@ -17,6 +18,24 @@
                 <h1>login</h1>
                 <p>seja bem-vindo(a) novamente!</p>
             </div>
+            <form action="#" method="post" autocomplete="on">
+                <div id="campo">
+                    <span 
+                    class="material-symbols-outlined">person
+                    </span>
+                    <input type="email" name="login" id="ilogin" placeholder="seu email" required autocomplete="email">
+                    <label for="ilogin">email</label>
+                </div>
+                <div id="campo">
+                    <span class="material-symbols-outlined">vpn_key</span>
+                    <input type="password" name="senha" id="isenha" placeholder="sua senha" require autocomplete="password">
+                    <label for="isenha">senha</label>
+                </div>
+                <input type="submit" value="Entrar">
+                <a 
+                    href="esqueci.html">Esqueci a senha <span class="material-symbols-outlined">mail</span>
+                </a>
+            </form>
         </section>
     </main>
 </body>
