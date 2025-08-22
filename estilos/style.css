@@ -35,8 +35,11 @@ section#login{
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 5px black;
+
+    transition: width .1s,  height .1s;
 }
 section#login>div#imagem{
+    display: block;
     background-image: url(../imagens/imagem_predio.jpg);
     background-repeat: no-repeat;
     background-size: cover;
