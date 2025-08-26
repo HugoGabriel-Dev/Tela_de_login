@@ -54,15 +54,37 @@ div#formulario > h1{
 div#formulario > p{
     font-size: 0.8em;
 }
+div.campo > span{
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+    margin-right: 10px;
+}
+div.campo > input{
+    background-color: #51e4df;
+    font-size: 1em;
+    height: 70%;
+    width:calc(100% - 55px);
+    transform: translateY(-9px);
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+    margin: -20px;
+}
+div.campo > input:focus-within{
+    background-color: white;
 
+}
 form > div.campo{
     display: block;
     background-color: #5f2c82;
+    border: 2px solid #5f2c82;
     width: 100%;
     height: 40px;
     margin-top: 10px;
     margin-bottom: 10px;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 div.campo > label{
     display: none;
