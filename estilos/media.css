@@ -20,7 +20,15 @@
   section#login > div#formulario{
     float: right;
     width: 66.7%;
-  }
+}
+    div#formulario > h1{
+        text-align: center;
+        font-size: 2em;
+        padding-bottom: 10px;
+    }
+    div#formulario > p{
+        font-size: 1em;
+    }
 }
 @media screen and (min-width: 998px) {
     body{
@@ -30,14 +38,21 @@
     width: 950px;
    }
     section#login > div#imagem {
-    float: left;
+    float: right;
     width: 50%;
     height: 100%;
    }
 
     section#login > div#formulario{
-    float: right;
+    float: left;
     width: 47.8%;
-    
+  }
+    div#formulario > h1{
+    text-align: center;
+    font-size: 2.1em;
+    padding-bottom: 10px;
+  }
+    div#formulario > p{
+        font-size: 1.1em;
   }
 }
