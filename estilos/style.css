@@ -63,7 +63,7 @@ div.campo > span{
     margin-right: 10px;
 }
 div.campo > input{
-    background-color: #51e4df;
+    background-color: #ffffff;
     font-size: 1em;
     height: 70%;
     width:calc(100% - 55px);
@@ -71,7 +71,7 @@ div.campo > input{
     border-radius: 8px;
     padding: 4px;
     margin: -20px;
-    transform: translateY(-12px);
+    transform: translateY(-13px);
 }
 div.campo > input:focus-within{
     background-color: white;
